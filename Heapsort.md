@@ -3,8 +3,8 @@ public class Heap
 {
  public static void sort(Comparable[] a)
  {
- int N = a.length;
- for (int k = N/2; k >= 1; k--)
+   int N = a.length;
+   for (int k = N/2; k >= 1; k--)
  sink(a, k, N);
  while (N > 1)
  {
