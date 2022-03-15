@@ -1,7 +1,7 @@
 ```  
 private static int partition(Comparable[] a, int lo, int hi)
 {
- int i = lo, j = hi+1;
+ int i = lo, j = hi+1
  while (true)
  {
  while (less(a[++i], a[lo]))
