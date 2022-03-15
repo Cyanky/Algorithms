@@ -5,8 +5,8 @@ private static int partition(Comparable[] a, int lo, int hi)
  while (true)
  {
  while (less(a[++i], a[lo]))
- if (i == hi) break;
- while (less(a[lo], a[--j]))
+   if (i == hi) break;
+   while (less(a[lo], a[--j]))
  if (j == lo) break;
 
  if (i >= j) break;
